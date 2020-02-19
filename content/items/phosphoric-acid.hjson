@@ -1,0 +1,9 @@
+type: resource
+name: Phosphoric Acid
+description: "In organic chemistry, phosphate or orthophosphate is an organophosphate, an ester of orthophosphoric acid of the form PO4RR′R'' where one or more hydrogen atoms are replaced by other organic groups. An example is trimethyl phosphate. The term also refers to the trivalent functional group OP(O-)3 in such esters."
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+hardness: 0
+cost: 2
+color: 6eff30
