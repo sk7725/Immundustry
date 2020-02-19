@@ -17,6 +17,7 @@ priority: turret
 update: true
 solid: true
 layer: turret
+category: turret
 group: turrets
 type: ItemTurret
 ammo: {
