@@ -1,5 +1,5 @@
 name: Lysozyme Turret
-description: Lysozyme, also known as muramidase or N-acetylmuramide glycanhydrolase, is an antimicrobial enzyme produced by animals that forms part of the innate immune system. Lysozyme is abundant in secretions including tears, saliva, human milk, and mucus. It is also present in cytoplasmic granules of the macrophages and the polymorphonuclear neutrophils (PMNs). \n\n[accent]This exists for illustration or mechanical purposes; it doesn't exist in your body, or not in this form.[]
+description: "Lysozyme, also known as muramidase or N-acetylmuramide glycanhydrolase, is an antimicrobial enzyme produced by animals that forms part of the innate immune system. Lysozyme is abundant in secretions including tears, saliva, human milk, and mucus. It is also present in cytoplasmic granules of the macrophages and the polymorphonuclear neutrophils (PMNs). \n\n[royal]This exists for illustration or mechanical purposes; it doesn't exist in your body, or not in this form.[]"
 smokeEffect: shootSmallSmoke
 ammoUseEffect: none
 ammoPerShot: 1

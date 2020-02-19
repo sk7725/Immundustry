@@ -1,5 +1,5 @@
 name: Blood Plasma
-description: Blood plasma is a yellowish liquid component of blood that holds the blood cells in whole blood in suspension. It is the liquid part of the blood that carries cells and proteins throughout the body. It makes up about 55% of the body's total blood volume. \n\n[accent]This exists for illustration or mechanical purposes; it doesn't exist in your body, or not in this form.[]
+description: "Blood plasma is a yellowish liquid component of blood that holds the blood cells in whole blood in suspension. It is the liquid part of the blood that carries cells and proteins throughout the body. It makes up about 55% of the body's total blood volume. \n\n[royal]This exists for illustration or mechanical purposes; it doesn't exist in your body, or not in this form.[]"
 temperature: 0.5
 explosiveness: 0
 viscosity: 0.5
