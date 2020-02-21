@@ -3,5 +3,5 @@ description: "Blood plasma is a yellowish liquid component of blood that holds t
 temperature: 0.5
 explosiveness: 0
 viscosity: 0.5
-color: 800b0b
-lightColor: fdff87
+color: fffbb8
+lightColor: fffbb8

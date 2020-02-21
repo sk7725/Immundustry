@@ -1,0 +1,10 @@
+name: Fibrin Wall
+description: Fibrin (also called Factor Ia) is a fibrous, non-globular protein involved in the clotting of blood. It is formed by the action of the protease thrombin on fibrinogen, which causes it to polymerize. The polymerized fibrin, together with platelets, forms a hemostatic plug or clot over a wound site.
+type: Wall
+health: 600
+size: 1
+requirements: [
+  protein/6
+]
+category: defense
+research: wall-mucus

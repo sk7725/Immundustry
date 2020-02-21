@@ -1,6 +1,6 @@
 {
 	"name": "Healthy Diet",
-	"description": "The owner's body has a balanced, stable diet. \n\n[accent]White blocks represent the interaction between your body and the environment.[]",
+	"description": "The owner's body has a balanced, stable diet. \n\n[accent]This represents the interaction between your body and the environment.[]",
 	"type": "Drill",
 	"size": 2,
 	"health": 200,

@@ -1,0 +1,9 @@
+type: resource
+name: Reactive Oxygen Species
+description: "In a biological context, ROS are formed as a natural byproduct of the normal metabolism of oxygen and have important roles in cell signaling and homeostasis. However, during times of environmental stress (e.g., UV or heat exposure), ROS levels can increase dramatically."
+explosiveness: 0.5
+flammability: 0
+radioactivity: 0.8
+hardness: 5
+cost: 3
+color: 96c4f2

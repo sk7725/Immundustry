@@ -1,0 +1,10 @@
+name: Large Mucus Wall
+description: Mucus serves to protect epithelial cells in the linings of the respiratory, digestive, and urogenital systems, and structures in the visual, and auditory systems from pathogenic fungi, bacteria and viruses. Most of the mucus in the body is produced in the gastrointestinal tract.
+type: Wall
+health: 1280
+size: 2
+requirements: [
+  amino-acid/24
+]
+category: defense
+research: wall-mucus

@@ -1,6 +1,6 @@
 {
 	"name": "Bad Diet",
-	"description": "The owner's body has an unplanned eating habit consisted of fast foods and sugary snacks. \n\n[accent]White blocks represent the interaction between your body and the environment.[]",
+	"description": "The owner's body has an unplanned eating habit consisted of fast foods and sugary snacks. \n\n[accent]This represents the interaction between your body and the environment.[]",
 	"type": "Drill",
 	"size": 2,
 	"health": 200,

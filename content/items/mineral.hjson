@@ -1,0 +1,9 @@
+type: material
+name: Mineral
+description: "In the context of nutrition, a mineral is a chemical element required as an essential nutrient by organisms to perform functions necessary for life. Most chemical elements that are ingested by organisms are in the form of simple compounds. Plants absorb dissolved elements in soils, which are subsequently ingested by the herbivores and omnivores that eat them, and the elements move up the food chain. Larger organisms may also consume soil (geophagia) or use mineral resources, such as salt licks, to obtain limited minerals unavailable through other dietary sources."
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+hardness: 4
+cost: 4
+color: d647c8

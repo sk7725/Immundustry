@@ -1,0 +1,10 @@
+name: Skin Wall
+description: Skin is an anatomical barrier from pathogens and damage between the internal and external environment in bodily defense.
+type: Wall
+health: 950
+size: 1
+requirements: [
+  cell/6
+]
+category: defense
+research: wall-fibrin

@@ -2,8 +2,8 @@ type: material
 name: Protein
 description: Proteins are large biomolecules, or macromolecules, consisting of one or more long chains of amino acid residues. Proteins perform a vast array of functions within organisms, including catalysing metabolic reactions, DNA replication, responding to stimuli, providing structure to cells, and organisms, and transporting molecules from one location to another.
 explosiveness: 0
-flammability: 0
+flammability: 0.7
 radioactivity: 0
-hardness: 2
+hardness: 3
 cost: 3
 color: ff3700

@@ -1,0 +1,38 @@
+type: GenericCrafter
+name: Alpha Cell
+description: "Alpha cells (more commonly α-cells) are endocrine cells in the pancreatic islets of the pancreas. They make up to 20% of the human islet cells synthesizing and secreting the peptide hormone glucagon, which elevates the glucose levels in the blood."
+	
+size: 2
+health: 200
+craftTime: 30
+liquidCapacity: 0.6
+craftEffect: none
+idleSound: release
+
+hasPower: false
+hasLiquids: false
+hasItems: true
+consumes: {
+	items: {
+		items: [
+			glycogen/1
+		]
+	}
+	liquid: {
+		liquid: blood
+		amount: 0.5
+	}
+}
+	
+outputItem: glucose/2
+outputLiquid: {
+	liquid: blood-used
+	amount: 0.5
+}
+requirements: [
+	fat/5
+	amino-acid/25
+]
+	
+category: crafting
+research: cell-beta

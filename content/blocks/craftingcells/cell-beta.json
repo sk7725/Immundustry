@@ -1,0 +1,30 @@
+type: GenericCrafter
+name: Beta Cell
+description: "Beta cells (β cells) are a type of cell found in pancreatic islets that synthesize and secrete insulin and amylin. Insulin promotes glycogenesis, which is the process of glycogen synthesis, in which glucose molecules are added to chains of glycogen for storage. This process is activated during rest periods following the Cori cycle, in the liver, and also activated by insulin in response to high glucose levels."
+	
+size: 2
+health: 180
+craftTime: 60
+craftEffect: none
+idleSound: release
+
+hasPower: false
+hasLiquids: false
+hasItems: true
+consumes: {
+	items: {
+		items: [
+			glucose/2
+		]
+	}
+}
+	
+outputItem: glycogen/1
+	
+requirements: [
+	fatty-acid/15
+	amino-acid/15
+]
+	
+category: crafting
+research: core-shard

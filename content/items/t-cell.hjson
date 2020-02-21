@@ -1,0 +1,9 @@
+type: material
+name: T Stem Cell
+description: "A T cell is a type of lymphocyte which develops in the thymus gland (hence the name) and plays a central role in the immune response. T cells can be distinguished from other lymphocytes by the presence of a T-cell receptor on the cell surface. These immune cells originate as precursor cells, derived from bone marrow, and develop into several distinct types of T cells once they have migrated to the thymus gland - for which these cells are named. T cell differentiation continues even after they have left the thymus."
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+hardness: 4
+cost: 5
+color: 5edb80

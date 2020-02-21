@@ -1,0 +1,9 @@
+type: material
+name: B Stem Cell
+description: "B cells, also known as B lymphocytes, are a type of white blood cell of the small lymphocyte subtype. They function in the humoral immunity component of the adaptive immune system by secreting antibodies. Additionally, B cells present antigen (they are also classified as professional antigen-presenting cells (APCs)) and secrete cytokines. In mammals, B cells mature in the bone marrow, which is at the core of most bones."
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+hardness: 4
+cost: 5
+color: e88b1a

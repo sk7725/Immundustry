@@ -4,6 +4,6 @@ description: Glucose is a simple sugar with the molecular formula C6H12O6. Gluco
 explosiveness: 0
 flammability: 0.5
 radioactivity: 0
-hardness: 0
+hardness: 1
 cost: 1
 color: 6d17c2

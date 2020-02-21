@@ -1,0 +1,46 @@
+//itemdesc US
+
+\n\n[royal]This exists for illustration or mechanical purposes; it doesn't exist in your body, or not in this form.[]"
+\n\n[accent]This represents the interaction between your body and the environment.[]"
+
+//cellblooduse
+
+type: GenericCrafter
+name: 
+description: 
+	
+size: 2
+health: 180
+craftTime: 60
+liquidCapacity: 0.6
+craftEffect: none
+idleSound: release
+
+hasPower: [[temp]]
+hasLiquids: true
+hasItems: true
+consumes: {
+	power: 1.0
+	items: {
+		items: [
+			[[temp]]/1
+		]
+	}
+	liquid: {
+		liquid: blood
+		amount: 0.5
+	}
+}
+	
+outputItem: [[temp]]/1
+outputLiquid: {
+	liquid: blood-used
+	amount: 0.5
+}
+	
+requirements: [
+	[[temp]]
+]
+	
+category: crafting
+research: [[temp]]
