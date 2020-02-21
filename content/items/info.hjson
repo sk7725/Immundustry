@@ -1,6 +1,6 @@
 type: material
 name: Antigen
-description: "The antigen may originate from within the body ("self-antigen") or from the external environment ("non-self"). The immune system is supposed to identify and attack "non-self" invaders from the outside world or modified/harmful substances present in the body and usually does not react to self-antigens under normal homeostatic conditions due to negative selection of T cells in the thymus. \n\n[royal]This item symbolizes pathogen information which is essential for T cell immune response triggering. In reality, almost every pathogen has multiple, different Antigens.[]"
+description: "The antigen may originate from within the body (self-antigen) or from the external environment (non-self). The immune system is supposed to identify and attack 'non-self' invaders from the outside world or modified/harmful substances present in the body and usually does not react to self-antigens under normal homeostatic conditions due to negative selection of T cells in the thymus. \n\n[royal]This item symbolizes pathogen information which is essential for T cell immune response triggering. In reality, almost every pathogen has multiple, different Antigens.[]"
 explosiveness: 0
 flammability: 0
 radioactivity: 0
