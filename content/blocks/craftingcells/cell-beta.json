@@ -1,4 +1,6 @@
 type: GenericCrafter
+layer: overlay
+layer2: turret
 name: Beta Cell
 description: "Beta cells (β cells) are a type of cell found in pancreatic islets that synthesize and secrete insulin and amylin. Insulin promotes glycogenesis, which is the process of glycogen synthesis, in which glucose molecules are added to chains of glycogen for storage. This process is activated during rest periods following the Cori cycle, in the liver, and also activated by insulin in response to high glucose levels."
 	
