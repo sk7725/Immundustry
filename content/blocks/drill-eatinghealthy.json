@@ -16,6 +16,7 @@
 		{ "item": "fat", "amount": 15 },
 		
 	],
-	"category": "production"
-	"research": "drill-eatingbad"
+	"category": "production",
+	"research": "drill-eatingbad",
+	"canOverdrive": false
 }

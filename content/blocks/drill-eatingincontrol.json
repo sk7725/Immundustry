@@ -1,0 +1,23 @@
+{
+	"name": "Controlled Diet",
+	"description": "The owner's body has a balanced, diet controlled by a prefessional, rather that be a doctor, fitness trainer, or sheer will. \n\n[accent]This represents the interaction between your body and the environment.[]",
+	"type": "Drill",
+	"size": 2,
+	"health": 400,
+	"tier": 4,
+	"drillTime": 220,
+	"rotateSpeed": 4,
+	"drawRim": true,
+	"drawMineItem": true,
+	"updateEffect": "pulverizeRed"
+	"updateEffectChance": 0.01,
+	"requirements": [
+		{ "item": "protein", "amount": 35 },
+		{ "item": "fat", "amount": 25 },
+		{ "item": "fiber", "amount": 25 },
+		{ "item": "nucleotide", "amount": 30 },
+	],
+	"category": "production",
+	"research": "drill-eatinghealthy",
+	"canOverdrive": false
+}

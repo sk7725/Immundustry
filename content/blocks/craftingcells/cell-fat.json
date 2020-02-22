@@ -1,0 +1,44 @@
+type: GenericCrafter
+layer: turret
+name: Enterocyte
+description: "Enterocytes, or intestinal absorptive cells, are simple columnar epithelial cells which line the inner surface of the small and large intestines."
+	
+size: 2
+health: 300
+craftTime: 100
+liquidCapacity: 40
+craftEffect: none
+idleSound: release
+
+hasPower: true
+hasLiquids: true
+hasItems: true
+consumes: {
+	power: 30
+	items: {
+		items: [
+			glycerol/1
+			fatty-acid/3
+		]
+	}
+	liquid: {
+		liquid: blood
+		amount: 0.6
+	}
+}
+	
+outputItem: fat/1
+outputLiquid: {
+	liquid: blood-used
+	amount: 18
+}
+requirements: [
+	glycogen/50
+	amino-acid/15
+	protein/35
+]
+	
+category: crafting
+research: cell-glycerol
+canOverdrive: false
+expanded: true
