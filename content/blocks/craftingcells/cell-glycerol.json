@@ -21,7 +21,7 @@ consumes: {
 	}
 	liquid: {
 		liquid: blood
-		amount: 0.3
+		amount: 0.2
 	}
 }
 
