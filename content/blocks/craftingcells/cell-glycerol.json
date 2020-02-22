@@ -2,7 +2,7 @@ type: GenericCrafter
 layer: turret
 name: Brown Adipocyte
 description: "Adipocytes, also known as lipocytes and fat cells, are the cells that primarily compose adipose tissue, specialized in storing energy as fat. The differences between brown and white adipose tissue are brown adipose tissues have higher activity in glyceroneogenesis than white adipose tissues and glyceroneogenesis in brown adipose tissue is related to thermogenesis. The activity of glyceroneogenesis in brown adipose tissue is greater than that of white adipose tissue because it contains more enzymes involved in the glyceroneogenesis. Glyceroneogenesis is a metabolic pathway which synthesizes glycerol 3-phosphate or triglyceride from precursors other than glucose."
-	
+
 size: 2
 health: 400
 craftTime: 45
@@ -24,7 +24,7 @@ consumes: {
 		amount: 0.3
 	}
 }
-	
+
 outputItem: glycerol/1
 outputLiquid: {
 	liquid: blood-used
@@ -35,7 +35,7 @@ requirements: [
 	amino-acid/15
 	glycogen/35
 ]
-	
+
 category: crafting
 research: cell-beta
 canOverdrive: false
