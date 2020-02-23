@@ -32,7 +32,7 @@ consumes: {
 outputItem: cell/1
 outputLiquid: {
 	liquid: blood-used
-	amount: 60
+	amount: 50
 }
 requirements: [
 	mineral/75

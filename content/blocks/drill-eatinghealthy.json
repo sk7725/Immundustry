@@ -5,7 +5,7 @@
 	"size": 2,
 	"health": 200,
 	"tier": 2,
-	"drillTime": 270,
+	"drillTime": 650,
 	"rotateSpeed": 3,
 	"drawRim": true,
 	"drawMineItem": true,
@@ -14,7 +14,7 @@
 	"requirements": [
 		{ "item": "glycogen", "amount": 20 },
 		{ "item": "fat", "amount": 15 },
-		
+
 	],
 	"category": "production",
 	"research": "drill-eatingbad",

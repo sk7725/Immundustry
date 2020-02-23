@@ -5,7 +5,7 @@
 	"size": 2,
 	"health": 200,
 	"tier": 1,
-	"drillTime": 400,
+	"drillTime": 1000,
 	"rotateSpeed": 2,
 	"drawRim": true,
 	"drawMineItem": true,
