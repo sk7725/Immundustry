@@ -6,9 +6,9 @@
 //cellblooduse
 
 type: GenericCrafter
-name: 
-description: 
-	
+name:
+description:
+
 size: 2
 health: 180
 craftTime: 60
@@ -31,16 +31,23 @@ consumes: {
 		amount: 0.5
 	}
 }
-	
+
 outputItem: [[temp]]/1
 outputLiquid: {
 	liquid: blood-used
 	amount: 0.5
 }
-	
+
 requirements: [
 	[[temp]]
 ]
-	
+
 category: crafting
 research: [[temp]]
+
+//toprender
+
+draw(tile){
+    Draw.rect(this.region, tile.drawx(), tile.drawy());
+    Draw.rect(Core.atlas.find(this.name + "-top"), tile.drawx(), tile.drawy());
+}

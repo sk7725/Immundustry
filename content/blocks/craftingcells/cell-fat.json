@@ -14,7 +14,7 @@ hasPower: true
 hasLiquids: true
 hasItems: true
 consumes: {
-	power: 30
+	power: 0.6
 	items: {
 		items: [
 			glycerol/1
