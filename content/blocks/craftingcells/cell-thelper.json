@@ -2,7 +2,7 @@ type: GenericCrafter
 layer: turret
 name: T Helper Cell
 description: "The T helper cells , also known as CD4+ cells, are a type of T cell that play an important role in the immune system, particularly in the adaptive immune system. They help the activity of other immune cells by releasing T cell cytokines. These cells help suppress or regulate immune responses. They are essential in B cell antibody class switching, in the activation and growth of cytotoxic T cells, and in maximizing bactericidal activity of phagocytes such as macrophages."
-	
+
 size: 2
 health: 380
 craftTime: 300
@@ -19,16 +19,16 @@ consumes: {
 		]
 	}
 }
-	
+
 outputItem: t-info/1
-	
+
 requirements: [
 	glycogen/105
 	amino-acid/95
 	protein/60
 	nucleotide/30
 ]
-	
+
 category: turret
-research: core-shard
+research: core-lymph
 expanded: true
