@@ -1,0 +1,24 @@
+type: LiquidVoid
+layer: turret
+name: Vein
+description: "Veins are blood vessels that carry blood towards the heart. Most veins carry deoxygenated blood from the tissues back to the heart; exceptions are the pulmonary and umbilical veins, both of which carry oxygenated blood to the heart. In contrast to veins, arteries carry blood away from the heart."
+
+size: 3
+health: 5000
+liquidCapacity: 3000
+idleSound: none
+
+hasPower: false
+hasLiquids: true
+hasItems: false
+
+requirements: [
+]
+
+category: liquid
+expanded: true
+alwaysUnlocked: true
+buildVisibility: sandboxOnly
+destructible: false
+breakable: false
+targetable: false
