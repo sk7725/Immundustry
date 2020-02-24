@@ -15,7 +15,7 @@
 		{ "item": "amino-acid", "amount": 15 }
 	],
 	"category": "production",
-	"research": "core-shard",
+	"research": "core-lymph",
 	"canOverdrive": false,
 	"alwaysUnlocked": true
 }
