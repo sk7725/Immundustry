@@ -34,8 +34,7 @@ outputLiquid: {
 }
 requirements: [
 	glycogen/50
-	amino-acid/15
-	protein/35
+	amino-acid/65
 ]
 
 category: crafting
