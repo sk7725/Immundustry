@@ -5,7 +5,7 @@ ammoUseEffect: none
 ammoPerShot: 1
 shootSound: artillery
 ammoEjectBack: 1
-range: 240
+range: 160
 reload: 20
 inaccuracy: 3
 shots: 3
