@@ -6,5 +6,5 @@ requirements: [
 ]
 health: 30
 category:distribution
-research: tube
+research: tube-junction
 alwaysUnlocked: true

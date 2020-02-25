@@ -7,6 +7,7 @@ requirements: [
 ]
 health: 30
 category:distribution
-research: tube-junction
+research: tube-router
 alwaysUnlocked: false
 range: 3
+hasPower: false

@@ -7,6 +7,5 @@ requirements: [
 ]
 health: 30
 category:liquid
-research: capi
-alwaysUnlocked: true
+research: capi-junction
 liquidCapacity: 25
