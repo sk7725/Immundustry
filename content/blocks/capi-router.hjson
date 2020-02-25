@@ -9,3 +9,4 @@ health: 30
 category:liquid
 research: capi
 alwaysUnlocked: true
+liquidCapacity: 25
