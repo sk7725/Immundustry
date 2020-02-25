@@ -1,0 +1,12 @@
+type: LiquidBridge
+name: Capillary Bridge
+description: "Allows transporting liquidss over up to 3 tiles of anything. A capillary is a small blood vessel from 5 to 10 micrometres (μm) in diameter, and having a wall one endothelial cell thick. They are the smallest blood vessels in the body: they convey blood between the arterioles and venules. These microvessels are the site of exchange of many substances with the interstitial fluid surrounding them. \n\n[royal]This exists for illustration or mechanical purposes; it doesn't exist in your body, or not in this form.[]"
+requirements: [
+     fiber/8
+     glycogen/4
+]
+health: 30
+category:liquid
+research: capi-junction
+liquidCapacity: 10
+range: 3
