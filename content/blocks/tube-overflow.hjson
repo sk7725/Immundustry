@@ -1,0 +1,10 @@
+type:OverflowGate
+name: Vesicle Overflow Gate
+description: "Only outputs to the left and right if the front path is blocked. A vesicle is a structure within or outside a cell, consisting of liquid or cytoplasm enclosed by a lipid bilayer. Vesicles form naturally during the processes of secretion (exocytosis), uptake (endocytosis) and transport of materials within the plasma membrane. \n\n[royal]This exists for illustration or mechanical purposes; it doesn't exist in your body, or not in this form.[]"
+requirements: [
+     amino-acid/4
+     fatty-acid/2
+]
+health: 30
+category:distribution
+research: tube-sorter

@@ -31,3 +31,4 @@ buildVisibility: sandboxOnly
 destructible: false
 breakable: false
 targetable: false
+alwaysReplace: false
