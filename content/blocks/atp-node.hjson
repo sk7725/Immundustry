@@ -1,6 +1,6 @@
 type:PowerNode
 name: ATP Node
-description: "Transmits power to connected nodes. Adenosine triphosphate (ATP) is a complex organic chemical that provides energy to drive many processes in living cells, e.g. muscle contraction, nerve impulse propagation, and chemical synthesis. Found in all forms of life, ATP is often referred to as the "molecular unit of currency" of intracellular energy transfer. \n\n[royal]This exists for illustration or mechanical purposes; it doesn't exist in your body, or not in this form.[]"
+description: "Transmits power to connected nodes. Adenosine triphosphate (ATP) is a complex organic chemical that provides energy to drive many processes in living cells, e.g. muscle contraction, nerve impulse propagation, and chemical synthesis. Found in all forms of life, ATP is often referred to as the 'molecular unit of currency' of intracellular energy transfer. \n\n[royal]This exists for illustration or mechanical purposes; it doesn't exist in your body, or not in this form.[]"
 requirements: [
      amino-acid/1
      fatty-acid/3
