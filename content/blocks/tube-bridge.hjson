@@ -9,5 +9,5 @@ health: 30
 category:distribution
 research: tube-router
 alwaysUnlocked: false
-range: 3
+range: 4
 hasPower: false

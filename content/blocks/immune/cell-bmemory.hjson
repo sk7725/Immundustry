@@ -1,0 +1,31 @@
+type: OverdriveProjector
+layer: turret
+name: Memory B Cell
+description: "Speeds up the immune system around it. Memory B cells are a B cell sub-type that are formed within germinal centers following primary infection and are important in generating an accelerated and more robust antibody-mediated immune response in the case of re-infection (also known as a secondary immune response)."
+
+size: 2
+health: 380
+
+hasPower: true
+hasLiquids: false
+hasItems: true
+consumes: {
+  power: 3.5
+	items: {
+		items: [
+			t-info/1
+		]
+	}
+}
+
+requirements: [
+	glycogen/100
+	info/30
+	protein/75
+	nucleotide/75
+]
+
+category: turret
+research: cell-thelper
+expanded: true
+buildCostMultiplier: 5

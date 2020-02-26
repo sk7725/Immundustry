@@ -9,5 +9,5 @@ health: 30
 category:liquid
 research: capi-router
 liquidCapacity: 10
-range: 3
+range: 4
 hasPower: false
