@@ -1,0 +1,12 @@
+type:Conveyor
+name: Gap Junction
+description: "Gap junctions are a specialized intercellular connection between a multitude of animal cell-types.They directly connect the cytoplasm of two cells, which allows various molecules, ions and electrical impulses to directly pass through a regulated gate between cells."
+requirements: [
+     protein/1
+]
+health: 60
+speed:0.07
+displayedSpeed:9.1
+category:distribution
+itemCapacity:4
+research: tube
