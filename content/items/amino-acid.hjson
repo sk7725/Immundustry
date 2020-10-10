@@ -1,9 +1,0 @@
-type: material
-name: Proteinogenic Amino Acid
-description: Proteinogenic amino acids are amino acids that are incorporated biosynthetically into proteins during translation. The word "proteinogenic" means "protein creating". Throughout known life, there are 22 genetically encoded (proteinogenic) amino acids, 20 in the standard genetic code and an additional 2 that can be incorporated by special translation mechanisms.
-explosiveness: 0
-flammability: 0
-radioactivity: 0
-hardness: 1
-cost: 1
-color: f58442

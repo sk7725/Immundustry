@@ -1,9 +1,0 @@
-type: material
-name: Nucleotide
-description: "Nucleotides are molecules consisting of a nucleoside and a phosphate group. They are the basic building blocks of DNA and RNA."
-explosiveness: 0
-flammability: 0
-radioactivity: 0
-hardness: 2
-cost: 2
-color: b3ff30

@@ -1,9 +1,0 @@
-type: material
-name: Myofibril
-description: A myofibril (also known as a muscle fibril) is a basic rod-like unit of a muscle cell. Muscles are composed of tubular cells called myocytes, known as muscle fibers in striated muscle, and these cells in turn contain many chains of myofibrils. They are created during embryonic development in a process known as myogenesis. Smooth muscle lines the outer skin of blood vessels.
-explosiveness: 0
-flammability: 0
-radioactivity: 0
-hardness: 2
-cost: 2
-color: e8a790

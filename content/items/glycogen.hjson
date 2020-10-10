@@ -1,9 +1,0 @@
-type: material
-name: Glycogen
-description: Glycogen is a multibranched polysaccharide of glucose that serves as a form of energy storage in animals, fungi, and bacteria. The polysaccharide structure represents the main storage form of glucose in the body.
-explosiveness: 0
-flammability: 0.7
-radioactivity: 0
-hardness: 2
-cost: 2
-color: 9136eb

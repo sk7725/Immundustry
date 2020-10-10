@@ -1,9 +1,0 @@
-type: material
-name: Medical Treatment
-description: "A therapy or medical treatment is the attempted remediation of a health problem, usually following a diagnosis. \n\n[accent]This represents the interaction between your body and the environment.[]"
-explosiveness: 0
-flammability: 0
-radioactivity: 0
-hardness: 5
-cost: 5
-color: dbffc7

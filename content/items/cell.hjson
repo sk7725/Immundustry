@@ -1,9 +1,0 @@
-type: material
-name: Stem Cell
-description: Stem cells are cells that can differentiate into other types of cells, and can also divide in self-renewal to produce more of the same type of stem cells.
-explosiveness: 0
-flammability: 0
-radioactivity: 0
-hardness: 4
-cost: 5
-color: ffd60a

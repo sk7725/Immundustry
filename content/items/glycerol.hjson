@@ -1,9 +1,0 @@
-type: resource
-name: Glycerol 3-Phosphate
-description: "Glycerol 3-phosphate is synthesized by reducing dihydroxyacetone phosphate (DHAP), a glycolysis intermediate, with glycerol-3-phosphate dehydrogenase. DHAP and thus glycerol 3-phosphate is also possible to be synthesized from amino acids and citric acid cycle intermediates via glyceroneogenesis pathway."
-explosiveness: 0
-flammability: 0
-radioactivity: 0
-hardness: 1
-cost: 1
-color: ffdd87
