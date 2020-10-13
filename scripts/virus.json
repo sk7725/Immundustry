@@ -1,0 +1,17 @@
+[
+  {
+    "name": "influenza",
+    "degree": 1.5,
+    "type": "rna"
+  },
+  {
+    "name": "coronavirus",
+    "degree": 1.6,
+    "type": "rna"
+  },
+  {
+    "name": "coronavirus2",
+    "degree": 4.5,
+    "type": "rna"
+  }
+]
