@@ -44,9 +44,11 @@ whirlWindMissile.splashDamageRadius = 20;
 whirlWindMissile.weaveMag = 3;
 whirlWindMissile.weaveScale = 4;
 
+const proteins = this.global.proteins;
+
 const whirlWindLaser = extend(ContinuousLaserBulletType, {
 	update(b){
-		var u = Units.closestTarget(b.team, b.x, b.y, 260);
+		var u = Units.closestTarget(b.team, b.x, b.y, 260, boolf(u => u.health < 500), boolf(tile => false));
     if(u == null || b.owner == null) return;
     b.owner.vel.trns(Angles.angle(b.owner.x, b.owner.y, u.x, u.y), 10);
     b.owner.lookAt(u.x, u.y);
@@ -54,8 +56,9 @@ const whirlWindLaser = extend(ContinuousLaserBulletType, {
 		if((b.owner.x - u.x) < 2 && (b.owner.y - u.y) < 2 && (b.owner.x - u.x) > -2 && (b.owner.y - u.y) > -2){
 			//Damage.collideLine(b, b.team, Fx.none, b.x, b.y, b.rotation(), b.fdata, this.largeHit);
       devourFx.at(u.x, u.y);
+      b.owner.addItem(proteins[u.type.id], 1);//dummy, add protein
 			u.kill();
-      b.owner.addItem(Items.copper, 1);//dummy, add protein
+
       b.owner.vel.set(0, 0);
       b.remove();
       //b.owner.damage(50);
