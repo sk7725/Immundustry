@@ -53,6 +53,7 @@ function replace(from, to, color){
 
 setMod("immune");
 replace("copper", "glucose", "B159FF");
+replace("graphite", "carbohydrate", "8700FF")
 replace("sand", "atp", "FFAF1C");
 replace("coal", "amino-acid", "F49561");
 replace("metaglass", "fat", "FFF387");
