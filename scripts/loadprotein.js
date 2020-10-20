@@ -40,7 +40,8 @@ function makeTextureRegion(color, name){
 
 function newProtein(unit){
   var clr = getColor(unit);
-  print("["+clr.toString()+"]"+"Color[]");
+  clr = clr.shiftValue(clr.value());
+  print("[#"+clr.toString()+"]"+"Color[]");
   var itemIcon = makeTextureRegion(clr, "marker-"+unit.name);
   print("Item Icon: "+itemIcon);
   var item = extendContent(Item, "marker-"+unit.name, {
