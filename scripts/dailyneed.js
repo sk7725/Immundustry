@@ -5,19 +5,28 @@ var lastwave = 0;
 var reqstr = "";
 
 function getStack(name, n){
-  return new ItemStack(Vars.content.getByName(ContentType.item, "immune-" + name), n)
+  return new ItemStack(Vars.content.getByName(ContentType.item, "immune-" + name), n);
+}
+
+function randAmount(wave, reach, seed, mul, inc, tolerance){
+  var amount = (wave-reach)*(Mathf.randomSeed(wave+seed)+0.5)*mul+inc;
+  if(amount >= core.storageCapacity * tolerance) amount = core.storageCapacity * tolerance + Mathf.randomSeed(seed + 628)*mul;
+  amount = Mathf.floorPositive(amount);
+  if(amount > core.storageCapacity) amount = core.storageCapacity;
+  return amount;
 }
 
 function calculateNeeds(wave){
   //TODO
-  var ret = [getStack("glucose", wave*(Mathf.randomSeed(wave+628)+0.5)*4+15)];
-  if(wave > 15) ret.push(getStack("amino-acid", wave*(Mathf.randomSeed(wave+69)+0.5)*5+0));
-  if(wave > 5) ret.push(getStack("fatty-acid", wave*(Mathf.randomSeed(wave+47)+0.5)*3+15));
-  if(wave > 30) ret.push(getStack("carbohydrate", (wave-30)*(Mathf.randomSeed(wave+11)+0.5)*6+10));
-  if(wave > 30) ret.push(getStack("protein", (wave-30)*(Mathf.randomSeed(wave+628628)+0.5)*5+0));
-  if(wave > 40) ret.push(getStack("fat", (wave-40)*(Mathf.randomSeed(wave+628628)+0.5)*2+40));
-  if(wave > 50) ret.push(getStack("minerals", (wave-50)*(Mathf.randomSeed(wave+628628)+0.5)*2+8));
-  if(wave > 70) ret.push(getStack("nucleotide", (wave-70)*(Mathf.randomSeed(wave+62)+0.5)*1+0));
+  var ret = [getStack("glucose", randAmount(wave, 0, 628, 4, 15, 0.5))];
+  if(wave > 15) ret.push(getStack("amino-acid",randAmount(wave, 15, 69, 5, 0, 0.7)));
+  if(wave > 5) ret.push(getStack("fatty-acid", randAmount(wave, 5, 47, 3, 15, 0.5)));
+  if(wave > 30) ret.push(getStack("carbohydrate", randAmount(wave, 30, 11, 6, 10, 0.5)));
+  if(wave > 30) ret.push(getStack("protein", randAmount(wave, 30, 628628, 5, 0, 0.45)));
+  if(wave > 40) ret.push(getStack("fat", randAmount(wave, 40, 7725, 2, 40, 0.3)));
+  if(wave > 50) ret.push(getStack("minerals", randAmount(wave, 50, 1, 2, 8, 0.2)));
+  if(wave > 65) ret.push(getStack("vitamins", randAmount(wave, 65, 111, 1, 4, 0.25)));
+  if(wave > 70) ret.push(getStack("nucleotide", randAmount(wave, 70, 62, 1, 0, 0.3)));
   return ret;
 }
 

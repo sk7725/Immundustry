@@ -40,17 +40,19 @@ function makeTextureRegion(color, name){
 
 function newProtein(unit){
   var clr = getColor(unit);
-  clr = clr.shiftValue(clr.value());
-  print("[#"+clr.toString()+"]"+"Color[]");
+  clr = clr.shiftSaturation(0.8 - clr.saturation());
+  //clr = clr.shiftValue(1 - clr.value());
+  //print("[#"+clr.toString()+"]"+"Color[]");
   var itemIcon = makeTextureRegion(clr, "marker-"+unit.name);
-  print("Item Icon: "+itemIcon);
+  //print("Item Icon: "+itemIcon);
   var item = extendContent(Item, "marker-"+unit.name, {
     color: clr,
     icon(cicon){
       return itemIcon;
     }
   });
-  print("Item: "+item.name+" "+item.id);
+  item.localizedName = Core.bundle.format("item.immune-marker.name", unit.localizedName);
+  //print("Item: "+item.name+" "+item.id);
   return item;
 }
 
@@ -66,7 +68,7 @@ Events.on(EventType.ClientLoadEvent, () => {
   var arr = Vars.content.units().toArray();
   print("Detected Units: "+arr.length);
   for(var i=0; i<arr.length; i++){
-    print("Try creating unit:" +arr[i]);
+    //print("Try creating unit:" +arr[i]);
     this.global.proteins[arr[i].id] = newProtein(arr[i]);
   }
 });

@@ -12,7 +12,7 @@ function getItem(name){
 
 function createItem(from, name, color){
   var item = new Item(name, color);
-  print("Add Item ID: "+item.id);
+  //print("Add Item ID: "+item.id);
   item.explosiveness = from.explosiveness;
   item.flammability = from.flammability;
   item.radioactivity = from.radioactivity;
@@ -63,3 +63,4 @@ replace("surge-alloy", "dna", "B7F48D");
 replace("titanium", "phosphorus", "61F400");
 replace("thorium", "minerals", "FF9BC6");
 replace("plastanium", "nucleotide", "A0FFC3");
+replace("phase-fabric", "vitamins", "E1FF00");
