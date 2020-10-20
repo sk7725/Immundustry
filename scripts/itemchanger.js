@@ -12,6 +12,7 @@ function getItem(name){
 
 function createItem(from, name, color){
   var item = extendContent(Item, name, {});
+  print("Add Item ID: "+item.id);
   try{
     item.color = color;
   }
