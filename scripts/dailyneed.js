@@ -16,7 +16,7 @@ function calculateNeeds(wave){
 function formatReq(list){
   var str = Core.bundle.get("ui.dailyneed") + ": ";
   for(var i=0; i<list.length; i++){
-    str = str + "[#" + list[i].item.color.toString() + "]" + list[i].amount;
+    str = str + "[#" + list[i].item.color.toString() + "]" + list[i].amount + "[]";
     if(i < list.length - 1) str += ", ";
   }
   return str;

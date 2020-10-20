@@ -11,14 +11,8 @@ function getItem(name){
 }
 
 function createItem(from, name, color){
-  var item = extendContent(Item, name, {});
+  var item = new Item(name, color);
   print("Add Item ID: "+item.id);
-  try{
-    item.color = color;
-  }
-  catch(versionTooLowIHope){
-    print(versionTooLowIHope);
-  }
   item.explosiveness = from.explosiveness;
   item.flammability = from.flammability;
   item.radioactivity = from.radioactivity;
