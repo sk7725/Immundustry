@@ -1,5 +1,17 @@
 const proteins = this.global.proteins;
 
+const addMapping = provider => {
+  var i = 0;
+	for(i = 0; i < EntityMapping.idMap.length; i++){
+		if(EntityMapping.idMap[i] == undefined){
+			//print("EntityMapping: (" + i + "): " + provider);
+			EntityMapping.idMap[i] = provider;
+			break;
+		}
+	}
+  return EntityMapping.idMap.indexOf(provider);
+};
+
 const antibody = extend(BasicBulletType, {
 	init(b){
 		if(typeof(b) !== "undefined" && b.data == null){
@@ -30,22 +42,22 @@ const antibody = extend(BasicBulletType, {
 antibody.sprite = "immune-b-antibody"
 antibody.frontColor = Pal.lancerLaser;
 antibody.backColor = Pal.lancerLaser.cpy().mul(0.7);
-antibody.width = 2;
-antibody.height = 6;
+antibody.width = 6;
+antibody.height = 9;
 antibody.homingPower = 1;
-antibody.speed = 4.5;
+antibody.speed = 3.8;
 antibody.lifetime = 260;
 antibody.damage = 10;
-antibody.shootEffect = Fx.hitLancer;
+antibody.shootEffect = Fx.absorb;
 
 const antiWeap = new Weapon();
-antiWeap.reload = 6;
+antiWeap.reload = 9;
 antiWeap.rotate = true;
-antiWeap.x = 0.5;
+antiWeap.x = 2;
 antiWeap.y = -0.25;
 antiWeap.shots = 3;
 antiWeap.spacing = 0;
-antiWeap.inaccuracy = 0.1;
+antiWeap.inaccuracy = 3;
 antiWeap.velocityRnd = 0.05;
 antiWeap.shotDelay = 0;
 antiWeap.shootSound = Sounds.pew;
@@ -61,6 +73,13 @@ const banti = extendContent(UnitType, "banti", {
 		Draw.color(unit.getAntiColor());
     Draw.rect(this.indicateRegion, unit.x, unit.y, unit.rotation - 90);//i need to fix this later
     Draw.color();
+	},
+
+  setTypeID(id){
+		this.idType = id;
+	},
+	getTypeID(){
+		return this.idType;
 	}
 });
 banti.weapons.add(antiWeap);
@@ -95,6 +114,29 @@ banti.constructor = () => extend(MechUnit, {
 
     //testing purposes only
     var arr = Object.keys(UnitTypes);
-    this.setAntibody(UnitTypes[arr[Mathf.floorPositive(Mathf.random()*0.999*arr.length)]]);
+    var type = UnitTypes[arr[Mathf.floorPositive(Mathf.random()*0.999*arr.length)]];
+    print("Set: "+type.name);
+    this.setAntibody(type);
+  },
+  classId(){
+    return this.type.getTypeID();
+  },
+
+  write(writes){
+    this.super$write(writes);
+
+    writes.i(this._wave);
+    writes.i(this._unit.id);
+  },
+  read(reads){
+    this.super$read(reads);
+
+    this._wave = reads.i();
+    this.setAntibody(Vars.content.getByID(ContentType.unit, reads.i()));
   }
 });
+
+const bantiID = addMapping(banti.constructor);
+print(bantiID);
+banti.idType = bantiID;
+banti.setTypeID(bantiID);

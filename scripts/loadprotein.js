@@ -41,7 +41,9 @@ function makeTextureRegion(color, name){
 function newProtein(unit){
   var clr = getColor(unit);
   clr = clr.shiftSaturation(0.8 - clr.saturation());
-  //clr = clr.shiftValue(1 - clr.value());
+  clr = clr.shiftValue(Math.max(0, 1 - unit.health/20000) - clr.value());
+  //clr.mul();
+
   //print("[#"+clr.toString()+"]"+"Color[]");
   var itemIcon = makeTextureRegion(clr, "marker-"+unit.name);
   //print("Item Icon: "+itemIcon);
@@ -51,6 +53,7 @@ function newProtein(unit){
       return itemIcon;
     }
   });
+  item.color = clr;
   item.localizedName = Core.bundle.format("item.immune-marker.name", unit.localizedName);
   //print("Item: "+item.name+" "+item.id);
   return item;
