@@ -22,7 +22,7 @@ whirlWindMissile.shrinkY = 0;
 whirlWindMissile.backColor = Color.valueOf("65ffff");
 whirlWindMissile.frontColor = Color.valueOf("ffffff");
 whirlWindMissile.trailColor = Color.valueOf("65cccc");
-whirlWindMissile.splashDamage = 15;
+whirlWindMissile.splashDamage = 2;
 whirlWindMissile.splashDamageRadius = 20;
 whirlWindMissile.weaveMag = 3;
 whirlWindMissile.weaveScale = 4;
@@ -35,7 +35,7 @@ redMissile.shrinkY = 0.1;
 redMissile.backColor = Color.valueOf("ffaa55");
 redMissile.frontColor = Color.valueOf("ffddbb");
 redMissile.trailColor = Color.valueOf("ffaa00");
-redMissile.splashDamage = 100;
+redMissile.splashDamage = 5;
 redMissile.splashDamageRadius = 100;
 redMissile.weaveMag = 1;
 redMissile.weaveScale = 1;
@@ -94,7 +94,7 @@ const whirlWindLaser = extend(ContinuousLaserBulletType, {
     }
 });
 whirlWindLaser.largeHit = false;
-whirlWindLaser.damage = 40;
+whirlWindLaser.damage = 20;
 whirlWindLaser.lifetime = 20 * 60;
 whirlWindLaser.length = 10;
 whirlWindLaser.width = 5;
